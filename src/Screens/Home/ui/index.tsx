@@ -10,7 +10,7 @@ interface IScreenProps {
 export function Screen({ navigation }: IScreenProps) {
 
 	return (
-		<SafeAreaView>
+		<SafeAreaView style={{ backgroundColor: '#fff' }}>
 			<ScrollView
 				contentInsetAdjustmentBehavior="automatic">
 				<View>
